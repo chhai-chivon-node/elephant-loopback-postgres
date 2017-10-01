@@ -2,5 +2,25 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "dataSource": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "elephant-loopback-postgres",
+    "password": "123",
+    "name": "dataSource",
+    "user": "postgres",
+    "connector": "postgresql"
+  },
+  "postgresDataSource": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "elephant-loopback-postgres",
+    "password": "123",
+    "name": "postgresDataSource",
+    "user": "postgres",
+    "connector": "postgresql"
   }
 }

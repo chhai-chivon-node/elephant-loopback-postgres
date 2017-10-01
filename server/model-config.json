@@ -34,5 +34,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Category": {
+    "dataSource": "postgresDataSource",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "postgresDataSource",
+    "public": true
   }
 }
